@@ -1,0 +1,4 @@
+Poprawki:
+1. Zmiana kolejnosci wywolania kontruktorow nadklas w konstruktorze podklasy. Brak tej poprawki powodowal warningi przy kompilacji [-Wreorder].
+2. W klasie Battle zmienilismy zwykly wskaznik do Timera na shared_ptr - zapobiega to malemu wyciekowi pamieci.
+
